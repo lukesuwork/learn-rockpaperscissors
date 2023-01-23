@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    margin: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+
+    --fs-h1: 6rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.5rem
+
+    --fw-reg: 300;
+    --fw-bold: 1000;
+
+    --color-light: rgb(120, 184, 152);
+    --color-light2: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10rem;
+    color: var(--color-light);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem;
+    color: var(--color-light2);
+}
+
+button {
+    margin: auto;
+    padding: 0.3rem;
+    display: flex;
+    
+}
